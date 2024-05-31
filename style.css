@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: papayawhip;
+    background-color: Light Grayish Cyan;
     margin: 0;
     padding: 0;
 }
@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    /* background-color: Light Grayish Cyan; */
 }
 
 h1 {
