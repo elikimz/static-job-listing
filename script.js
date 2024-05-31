@@ -2,14 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const jobListingsContainer = document.querySelector('.job-listings');
     const filtersContainer = document.querySelector('.filters');
 
-    // Fetch job data from the JSON file
+    
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
             const allJobs = data;
             let filteredJobs = allJobs;
 
-            // Render job listings
             const renderJobListings = (jobs) => {
                 jobListingsContainer.innerHTML = '';
                 jobs.forEach(job => {
@@ -30,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             };
 
-            // Render filters
             const renderFilters = () => {
                 const roles = [...new Set(allJobs.map(job => job.role))];
                 const levels = [...new Set(allJobs.map(job => job.level))];
