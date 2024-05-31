@@ -1,6 +1,9 @@
+
+
+
 body {
     font-family: Arial, sans-serif;
-    background-color: Light Grayish Cyan;
+    background-color: Light Grayish rgb(89, 0, 255);
     margin: 0;
     padding: 0;
 }
@@ -10,6 +13,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color:  Light Grayish Cyan;
 }
 
 header {
@@ -51,7 +55,7 @@ h1 {
 }
 
 .job-listing {
-    background-color: white;
+    background-color:  Light Grayish Cyan ;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
